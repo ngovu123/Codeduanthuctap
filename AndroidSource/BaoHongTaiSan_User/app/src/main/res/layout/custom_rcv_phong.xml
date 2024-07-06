@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="20dp"
+        android:backgroundTint="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageview"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_home_24" />
+
+            <TextView
+                android:id="@+id/txtTenPhong"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageview"
+                android:text="Phòng E3-302"
+                android:textColor="#008EFF"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtTenKhuVucPhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTenPhong"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/imageview"
+                android:text="Dãy H"
+                android:textSize="10sp"
+                tools:ignore="SmallSp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtTenLoaiPhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTenKhuVucPhong"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/imageview"
+                android:text="Lí thuyết"
+                android:textColor="#A4AAAA"
+                android:textSize="10sp"
+                tools:ignore="SmallSp">
+
+            </TextView>
+
+
+            <Button
+                android:id="@+id/btnTraCuu"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_toEndOf="@id/txtTenPhong"
+                android:backgroundTint="#00BCD4"
+                android:text="Tra cứu"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

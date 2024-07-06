@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sv"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_border_input"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                app:queryHint="Tìm kiếm tài sản"
+                android:layout_margin="10dp"
+                app:iconifiedByDefault="false"/>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flb1"
+                android:layout_below="@id/sv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:flexWrap="wrap"
+                app:alignItems="stretch"
+                app:alignContent="stretch">
+
+
+
+                <Button
+                    android:id="@+id/btnTimNTS"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nhóm tài sản"
+                    android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+                    android:backgroundTint="#737171"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:textColor="#FDFDFD"/>
+
+                <Button
+                    android:id="@+id/btnTimLTS"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Loại tài sản"
+                    android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+                    android:backgroundTint="#737171"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:textColor="#FDFDFD"/>
+
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnADD"
+        android:layout_width="wrap_content"
+        app:elevation="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        android:backgroundTint="#00BCD4"
+        app:backgroundTint="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        app:fabCustomSize="45dp"
+        android:contentDescription="no"/>
+
+</RelativeLayout>

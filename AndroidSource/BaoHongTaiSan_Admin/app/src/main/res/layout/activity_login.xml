@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo_tdmu_1" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:textSize="13sp"
+        android:background="@drawable/custom_border_input"
+        android:text="admin@gmail.com"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtUsername"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_border_input"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="5dp"
+        android:padding="15dp"
+        android:password="true"
+        android:text="admin1234"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btnLoginUP"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtPassword"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button_login_1"
+        android:drawableLeft="@drawable/baseline_login_24"
+        android:paddingStart="50dp"
+        android:paddingEnd="70dp"
+        android:text="Đăng nhập"
+        android:textColor="#000000"
+        app:backgroundTint="@null" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivFB"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/iconfb" />
+
+        <ImageView
+            android:id="@+id/iYTB"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/iconytb" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/lb_tdmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="TDMU IS @ 2024" />
+
+
+</RelativeLayout>

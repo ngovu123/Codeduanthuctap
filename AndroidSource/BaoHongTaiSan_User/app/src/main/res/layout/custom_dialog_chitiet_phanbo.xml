@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_border_dialog"
+    android:layout_margin="16dp"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Thông tin chi tiết"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTitle">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Thuộc phòng: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvTenP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12sp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Phòng E3-202"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LL_PB_ChiTiet_0">
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Tên tài sản: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvTenTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Bộ máy vi tính - LG"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LL_PB_ChiTiet_1">
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Tên nhóm tài sản: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvTenNTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Máy vi tính"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LL_PB_ChiTiet_2">
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Tên loại tài sản: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvTenLTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Công cụ dụng cụ"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LL_PB_ChiTiet_3">
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Số lượng: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="3"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LL_PB_ChiTiet_4">
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Hãng sán xuất: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvHangSanXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Không có"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LL_PB_ChiTiet_5">
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Nước sán xuất: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvNuocSanXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Không có"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_PB_ChiTiet_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LL_PB_ChiTiet_6">
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="Năm sán xuất: "
+            android:textColor="#A3A3A3"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvNamSanXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="-10dp"
+            android:textSize="12sp"
+            android:text="0000"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnHuyBo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL_PB_ChiTiet_7"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#C5C5C5"
+        android:text="Tắt"
+        android:textSize="12sp" />
+</RelativeLayout>
