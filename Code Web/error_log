@@ -1,0 +1,77 @@
+[09-Jul-2024 21:31:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php:15
+Stack trace:
+#0 /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/index.php(3): include()
+#1 {main}
+  thrown in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php on line 15
+[09-Jul-2024 21:31:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php:15
+Stack trace:
+#0 /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/index.php(3): include()
+#1 {main}
+  thrown in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php on line 15
+[09-Jul-2024 21:32:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php:15
+Stack trace:
+#0 /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/index.php(3): include()
+#1 {main}
+  thrown in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php on line 15
+[09-Jul-2024 21:34:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php:15
+Stack trace:
+#0 /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/index.php(3): include()
+#1 {main}
+  thrown in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php on line 15
+[09-Jul-2024 21:34:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php:15
+Stack trace:
+#0 /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/index.php(3): include()
+#1 {main}
+  thrown in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/config.php on line 15
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nguoidung_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 87
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_donvi_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 92
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_chucdanh_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 97
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 126
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_kvphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 131
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_lphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 136
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_taisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 164
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nhomtaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 169
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_loaitaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 174
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 205
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 210
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_kiemke in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 218
+[09-Jul-2024 21:40:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nkhd_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 233
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $tongquan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 55
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 126
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_kvphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 131
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_lphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 136
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_taisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 164
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nhomtaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 169
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_loaitaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 174
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 205
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 210
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_kiemke in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 218
+[09-Jul-2024 21:40:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nkhd_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 233
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $tongquan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 55
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nguoidung_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 87
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_donvi_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 92
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_chucdanh_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 97
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 126
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_kvphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 131
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_lphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 136
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_taisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 164
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nhomtaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 169
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_loaitaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 174
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 205
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 210
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_kiemke in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 218
+[09-Jul-2024 21:40:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nkhd_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 233
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $tongquan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 55
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nguoidung_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 87
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_donvi_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 92
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_chucdanh_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 97
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 126
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_kvphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 131
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_lphong_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 136
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_taisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 164
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_nhomtaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 169
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_loaitaisan_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 174
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $ql_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 205
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_phanbo_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 210
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nv_kiemke in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 218
+[09-Jul-2024 21:41:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $nkhd_show in /home/yq423bysvapx/trungtamsottbinhduong.tdmuchatgpt.id.vn/nav.php on line 233
